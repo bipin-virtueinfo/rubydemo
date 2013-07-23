@@ -1,4 +1,4 @@
 ruby_demo
 =========
 
-This is demo of ruby on rails
+This is demo of ruby on rails for learning purpose.
