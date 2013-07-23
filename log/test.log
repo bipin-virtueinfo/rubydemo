@@ -1,0 +1,22 @@
+Connecting to database specified by database.yml
+Creating scope :page. Overwriting existing method Campaign.page.
+Creating scope :page. Overwriting existing method Category.page.
+Creating scope :page. Overwriting existing method Customer.page.
+Creating scope :page. Overwriting existing method Employee.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Picture.page.
+Creating scope :page. Overwriting existing method Product.page.
+Creating scope :page. Overwriting existing method Solution.page.
+Creating scope :page. Overwriting existing method UserDetail.page.
+Creating scope :page. Overwriting existing method User.page.
+Connecting to database specified by database.yml
+Creating scope :page. Overwriting existing method Campaign.page.
+Creating scope :page. Overwriting existing method Category.page.
+Creating scope :page. Overwriting existing method Customer.page.
+Creating scope :page. Overwriting existing method Employee.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Picture.page.
+Creating scope :page. Overwriting existing method Product.page.
+Creating scope :page. Overwriting existing method Solution.page.
+Creating scope :page. Overwriting existing method UserDetail.page.
+Creating scope :page. Overwriting existing method User.page.
