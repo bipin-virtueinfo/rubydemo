@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130101062307) do
+ActiveRecord::Schema.define(:version => 20130725123001) do
 
   create_table "books", :force => true do |t|
     t.string   "name"
@@ -68,6 +68,11 @@ ActiveRecord::Schema.define(:version => 20130101062307) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "jobs", :primary_key => "job_id", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "pictures", :force => true do |t|
     t.integer  "imageable_id"
     t.string   "imageable_type"
@@ -116,6 +121,11 @@ ActiveRecord::Schema.define(:version => 20130101062307) do
   end
 
   add_index "user_details", ["user_id"], :name => "index_user_details_on_user_id"
+
+  create_table "user_groups", :force => true do |t|
+    t.integer "user_id"
+    t.integer "group_id"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "login",                                                              :null => false

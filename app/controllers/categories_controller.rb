@@ -48,7 +48,7 @@ class CategoriesController < ApplicationController
   private
 
   def sort_column
-    Category.column_names.include?(params[:sort]) ? params[:sort] : "parent_id"
+    Category.column_names.include?(params[:sort]) ? params[:sort] : "lft"
   end
 
   def sort_direction

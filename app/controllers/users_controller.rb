@@ -6,7 +6,7 @@ class UsersController < ApplicationController
     @user = User.new
     @user.column_for_attribute(:gender).limit
     @user.build_user_detail
-    @user.build_user_group
+    #@user.build_user_group
   end
 
   def create
